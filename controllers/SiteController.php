@@ -7,7 +7,6 @@ use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\web\Response;
 use yii\filters\VerbFilter;
-use app\models\User;
 
 use uzdevid\payme\merchant\CheckoutUrl;
 
@@ -100,8 +99,7 @@ class SiteController extends Controller
      */
     public function actionAbout()
     {
-        $model = User::find()->all();
-        return $this->render('about', ['model' => $model]);
+        return $this->render('about');
     }
 
     public function actionLogin()
