@@ -19,6 +19,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, quo earum, sunt suscipit veritatis id optio, placeat nihil obcaecati porro aliquid eum dignissimos ipsum quaerat.</p>
         </div>
     </div>
+    <br>
+    <button class="btn btn-success"><i class="bi bi-filetype-php"></i></button>
 
-    <code><?= __FILE__ ?></code>
 </div>
